@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     max_recipients: int = 1000
     max_import_file_bytes: int = 5 * 1024 * 1024
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,https://bulk-certificate-generator-xi.vercel.app"
     max_name_length: int = 100
     certificate_prefix: str = "CERT"
 
