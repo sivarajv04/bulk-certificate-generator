@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: certgen-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: STORAGE_DIR
+        value: /tmp/certgen-storage
