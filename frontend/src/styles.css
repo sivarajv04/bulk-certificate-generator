@@ -1,1 +1,404 @@
 :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172033;background:#f5f7fb;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-width:320px}button,input,select{font:inherit}.page{width:min(1080px,calc(100% - 32px));margin:0 auto;padding:48px 0 32px}.hero{margin-bottom:26px}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.16em;color:#5968d9}.hero h1{margin:8px 0 10px;font-size:clamp(32px,5vw,50px);letter-spacing:-.04em}.hero p{margin:0;color:#637087;font-size:17px;line-height:1.6}.card{background:#fff;border:1px solid #e4e8f0;border-radius:20px;padding:28px;box-shadow:0 12px 40px rgba(24,36,64,.06)}.section-title{font-size:15px;font-weight:850;margin-bottom:16px}.source-title{margin-top:30px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}label{display:grid;gap:7px;font-size:13px;font-weight:750;color:#536078}input,select{width:100%;border:1px solid #d8deea;border-radius:10px;padding:12px 13px;outline:none;background:#fff;color:#172033}input:focus,select:focus{border-color:#6674e8;box-shadow:0 0 0 3px rgba(102,116,232,.12)}.tabs{display:flex;gap:8px;border-bottom:1px solid #e8ebf1;margin-bottom:18px}.tab{border:0;background:transparent;color:#6b7589;padding:11px 14px;font-weight:800;cursor:pointer;border-bottom:3px solid transparent}.tab.active{color:#4e5dca;border-color:#5968d9}.dropzone{border:2px dashed #cfd6e4;border-radius:16px;min-height:150px;display:grid;place-items:center;align-content:center;gap:8px;text-align:center;cursor:pointer;background:#fafbfe}.dropzone:hover{border-color:#7a86df;background:#f8f9ff}.dropzone input{display:none}.upload-icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#eef0ff;color:#5968d9;font-size:24px;font-weight:900}.dropzone span:last-child{font-size:12px;color:#8a94a7;font-weight:600}.import-panel{margin-top:18px;border:1px solid #e5e9f0;border-radius:14px;padding:16px}.import-summary{display:flex;gap:10px;margin-bottom:18px}.import-summary div{flex:1;background:#f7f8fb;border-radius:10px;padding:11px 12px}.import-summary strong{display:block;font-size:21px}.import-summary span{font-size:11px;color:#788399}.mapping{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}.optional{font-weight:500;color:#9aa2b1}.preview-header{display:flex;justify-content:space-between;align-items:center;font-weight:800;margin-bottom:8px}.preview-header small{font-weight:600;color:#8791a3}.table-wrap{max-height:360px;overflow:auto;border:1px solid #e6eaf0;border-radius:10px}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:10px 11px;text-align:left;border-bottom:1px solid #edf0f4;white-space:nowrap}th{position:sticky;top:0;background:#f8f9fb;color:#657087;font-size:11px;text-transform:uppercase;letter-spacing:.04em}tr:last-child td{border-bottom:0}.pill{display:inline-flex;border-radius:999px;padding:4px 7px;font-size:10px;font-weight:850}.pill.ok{background:#e7f8ed;color:#16733d}.pill.bad{background:#ffe9e9;color:#a32929}.warning{margin-top:12px;padding:11px 12px;border-radius:10px;background:#fff6df;color:#875f00;font-size:13px}.loading{margin-top:8px;color:#657087;font-size:12px}.recipient-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;color:#68748a;font-size:13px;font-weight:800}.recipient-list{display:grid;gap:10px}.recipient{display:grid;grid-template-columns:32px 1fr 1fr 36px;gap:8px;align-items:center}.number{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#eef0ff;color:#5968d9;font-size:12px;font-weight:800}.primary,.secondary,.icon{border:0;border-radius:10px;cursor:pointer;font-weight:850}.primary{display:inline-flex;justify-content:center;align-items:center;width:100%;margin-top:22px;padding:14px 18px;background:#5968d9;color:#fff;text-decoration:none}.primary:hover{background:#4857c8}.primary:disabled{opacity:.5;cursor:not-allowed}.secondary{padding:9px 13px;background:#eef0ff;color:#4e5dca}.icon{width:36px;height:36px;background:#f3f5f8;color:#697386;font-size:20px}.error{margin-top:14px;padding:12px 14px;border-radius:10px;background:#fff0f0;color:#a32929;font-size:14px}.result-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}h2{margin:0 0 6px;font-size:26px}.muted{color:#788399;font-size:13px}code{word-break:break-all}.status{padding:8px 11px;border-radius:999px;background:#eef0f5;font-size:12px;font-weight:800}.status.completed{background:#e7f8ed;color:#16733d}.status.completed_with_errors{background:#fff4d8;color:#946200}.status.failed{background:#ffe9e9;color:#a32929}.progress-wrap{margin-top:28px}.progress-label{display:flex;justify-content:space-between;margin-bottom:9px;font-size:13px}.progress{height:12px;border-radius:99px;background:#edf0f5;overflow:hidden}.progress span{display:block;height:100%;background:#5968d9;border-radius:inherit;transition:width .3s ease}.stats{display:flex;gap:14px;margin-top:12px;color:#68748a;font-size:13px;flex-wrap:wrap}.download{margin-top:26px}.full{width:100%;margin-top:10px}footer{text-align:center;color:#8993a6;font-size:12px;padding:24px}@media(max-width:700px){.page{padding-top:30px}.card{padding:20px}.grid,.mapping{grid-template-columns:1fr}.recipient{grid-template-columns:28px 1fr 36px}.recipient input:nth-child(3){grid-column:2/4}.result-head{flex-direction:column}.import-summary{flex-wrap:wrap}.import-summary div{min-width:30%}}
+
+
+/* =========================================================
+   ENGINEERING & IMPROVEMENTS
+   ========================================================= */
+
+.engineering-page {
+  max-width: 1120px;
+  margin: 70px auto 0;
+}
+
+.engineering-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 48px;
+  align-items: center;
+  padding: 52px;
+  background: #111827;
+  color: #ffffff;
+  border-radius: 24px;
+  margin-bottom: 70px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+}
+
+.engineering-eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #818cf8;
+}
+
+.engineering-hero h2 {
+  margin: 0 0 18px;
+  font-size: clamp(34px, 4vw, 54px);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.engineering-hero p {
+  max-width: 720px;
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.engineering-summary {
+  display: grid;
+  gap: 12px;
+}
+
+.engineering-summary div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.engineering-summary strong {
+  min-width: 55px;
+  font-size: 30px;
+  line-height: 1;
+  color: #a5b4fc;
+}
+
+.engineering-summary span {
+  color: #cbd5e1;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   SECTIONS
+   ========================================================= */
+
+.engineering-section {
+  margin-bottom: 72px;
+}
+
+.section-heading {
+  margin-bottom: 28px;
+}
+
+.section-heading > span {
+  display: block;
+  margin-bottom: 10px;
+  color: #6366f1;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.section-heading h3 {
+  margin: 0 0 10px;
+  color: #172033;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.section-heading p {
+  max-width: 700px;
+  margin: 0;
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   IMPROVEMENT CARDS
+   ========================================================= */
+
+.improvement-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.improvement-card {
+  position: relative;
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.improvement-card:hover {
+  transform: translateY(-4px);
+  border-color: #c7d2fe;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.09);
+}
+
+.improvement-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.improvement-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #eef2ff;
+  color: #4f46e5;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.improvement-tag {
+  color: #64748b;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-align: right;
+}
+
+.improvement-card h4 {
+  margin: 0 0 10px;
+  color: #172033;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.improvement-card > p {
+  min-height: 72px;
+  margin: 0 0 20px;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.improvement-card ul {
+  display: grid;
+  gap: 9px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.improvement-card li {
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.improvement-card li span {
+  color: #4f46e5;
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   ARCHITECTURE
+   ========================================================= */
+
+.architecture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.architecture-card {
+  display: flex;
+  gap: 16px;
+  padding: 22px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.architecture-card > span {
+  flex-shrink: 0;
+  color: #6366f1;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.architecture-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #172033;
+  font-size: 15px;
+}
+
+.architecture-card p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   DESIGN STORY
+   ========================================================= */
+
+.engineering-story {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 42px;
+  align-items: center;
+  padding: 42px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+}
+
+.engineering-story h3 {
+  margin: 0 0 14px;
+  color: #172033;
+  font-size: 30px;
+  letter-spacing: -0.025em;
+}
+
+.engineering-story p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.flow > div {
+  min-width: 82px;
+  padding: 15px 10px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 13px;
+  box-shadow: 0 5px 15px rgba(15, 23, 42, 0.05);
+}
+
+.flow > div span {
+  display: block;
+  margin-bottom: 6px;
+  color: #6366f1;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.flow > div strong {
+  color: #334155;
+  font-size: 12px;
+}
+
+.flow i {
+  color: #94a3b8;
+  font-size: 18px;
+  font-style: normal;
+}
+
+
+/* =========================================================
+   PROJECT VALUE
+   ========================================================= */
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.value-grid > div {
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.value-grid strong {
+  display: block;
+  margin-bottom: 9px;
+  color: #172033;
+  font-size: 15px;
+}
+
+.value-grid p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .engineering-hero {
+    grid-template-columns: 1fr;
+    padding: 36px;
+  }
+
+  .architecture-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .value-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .engineering-story {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .engineering-page {
+    margin-top: 45px;
+  }
+
+  .engineering-hero {
+    padding: 28px 22px;
+    border-radius: 18px;
+  }
+
+  .engineering-hero h2 {
+    font-size: 34px;
+  }
+
+  .improvement-grid,
+  .architecture-grid,
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .engineering-story {
+    padding: 28px 22px;
+  }
+
+  .flow {
+    justify-content: flex-start;
+  }
+
+  .flow i {
+    display: none;
+  }
+}
